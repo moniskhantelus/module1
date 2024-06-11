@@ -82,9 +82,9 @@ resource "google_compute_instance_from_template" "compute_instance" {
 #########
 
 locals {
-  source_image         = var.source_image != "" ? var.source_image : "debian-11-bullseye-v20240415"
-  source_image_family  = var.source_image_family != "" ? var.source_image_family : "debian-11-bullseye"
-  source_image_project = var.source_image_project != "" ? var.source_image_project : "rocky-linux-cloud"
+  source_image         = var.source_image != "" ? var.source_image : "debian-11-bullseye-v20240515"
+  source_image_family  = var.source_image_family != "" ? var.source_image_family : "debian-11"
+  source_image_project = var.source_image_project != "" ? var.source_image_project : "debian-cloud"
 
   boot_disk = [
     {
