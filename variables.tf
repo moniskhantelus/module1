@@ -14,7 +14,7 @@ variable "subnetwork" {
 variable "subnetwork_project" {
   description = "The project that subnetwork belongs to"
   type        = string
-  default     = ""
+  default     = "able-door-308401"
 }
 
 variable "hostname" {
@@ -46,7 +46,7 @@ variable "ipv6_access_config" {
 variable "num_instances" {
   description = "Number of instances to create. This value is ignored if static_ips is provided."
   type        = number
-  default     = "1"
+  default     = "5"
 }
 
 variable "instance_template" {
