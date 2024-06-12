@@ -46,7 +46,7 @@ variable "ipv6_access_config" {
 variable "num_instances" {
   description = "Number of instances to create. This value is ignored if static_ips is provided."
   type        = number
-  default     = "5"
+  default     = "3"
 }
 
 variable "instance_template" {
