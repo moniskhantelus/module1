@@ -108,7 +108,7 @@ variable "name_prefix" {
 variable "machine_type" {
   description = "Machine type to create, e.g. n1-standard-1"
   type        = string
-  default     = "n1-standard-1"
+  default     = "n2-standard-2"
 }
 
 variable "min_cpu_platform" {
